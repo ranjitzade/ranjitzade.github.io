@@ -91,10 +91,11 @@ angular.module('Resume', ['ngMaterial'])
   transclude: true,
   template: `<div class="category">
     <a href="{{r.link}}">{{r.title}}</a>
+    <h5 class="category-subtitle md-caption">{{r.subtitle}}</h5>
+    <ul class="category-bullets" ng-transclude></ul>
     
   </div>`
 })
-// <h5 class="category-subtitle md-caption">{{r.subtitle}}</h5>
-    // <ul class="category-bullets" ng-transclude></ul>
 //<h5 class="category-title md-body-2">{{r.title}}</h5>&nbsp;
+    
 
