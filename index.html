@@ -1,138 +1,194 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8">
-<title>Ranjit Zade</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ranjit Zade</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+          href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
 
-<link href="https://unpkg.com/material-resume@1.0.1/resume.min.css" rel="stylesheet">
-<script src="https://unpkg.com/material-resume@1.0.1/resume.min.js"></script>
+    <link href="https://unpkg.com/material-resume@1.0.1/resume.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-resume@1.0.1/resume.min.js"></script>
 
-</head><body ng-app="Resume" ng-cloak="">
-    <resume>
-        <resume-heading first-name="Ranjit" last-name="Zade" linkedin="ranjitzade" github="ranjitzade" email="me@ranjitzade.com" phone="904-988-5557" >
-        </resume-heading>
-        <resume-body>
-            <resume-column flex="25">
-                <sidebar-category name="Education">
-                    <p>Kavikulguru Institute of Technology &amp; Science</p>
-                    <p>Nagpur University</p>
-                    <p>Computer Technology</p>
-                    <p>Ramtek, Nagpur, MH</p>
+</head>
+<body ng-app="Resume" ng-cloak="">
+<resume>
+    <resume-heading first-name="Ranjit" last-name="Zade" linkedin="ranjitzade" github="ranjitzade"
+                    email="me@ranjitzade.com" phone="904-988-5557">
+    </resume-heading>
+    <resume-body>
+        <resume-column flex="25">
+            <sidebar-category name="Education">
+                <p>Kavikulguru Institute of Technology &amp; Science</p>
+                <p>Nagpur University</p>
+                <p>Computer Technology</p>
+                <p>Ramtek, Nagpur, MH</p>
+            </sidebar-category>
+
+
+            <category name="Technology"></category>
+            <sidebar-category name="Implementation">
+                <p>Flutter</p>
+                <p>Architecture (MVP/MVVM)</p>
+                <p>Android Architecture Components</p>
+                <p>Authentication (Facebook, Google, Instagram, Twitter)</p>
+                <p>Material Designs</p>
+                <p>Crashlytics</p>
+                <p>Git</p>
+            </sidebar-category>
+            <!-- <category name=""> -->
+            <sidebar-category name="Payment Gateways">
+                <p>Paypal (BrainTree Payments) • PayU Cashfree • Razorpay</p>
+            </sidebar-category>
+            <!-- </category> -->
+            <!-- <category name=""> -->
+            <sidebar-category name="Database">
+                <p>Local - SQLite, Room , Realm • Hive • ObjectBox</p>
+                <p>BaaS - Firebase, Parse, Shephertz</p>
+            </sidebar-category>
+            <!-- </category> -->
+            <!-- <category name=""> -->
+            <sidebar-category name="Google SDKs">
+                <p>Messaging • Analytics Ads • App-Indexing Geofence • AppLinking &amp; DeepLinking FCM/GCM • Cloud
+                    Firestore • Performance Monitoring • Realtime Database</p>
+            </sidebar-category>
+            <!-- </category> -->
+
+            <category name "Skills"></category>
+            <sidebar-category name="Programming">
+                <p>Java • Kotlin • Flutter Dart • XML • RxJava HTML • JSON • LaTeX</p>
+            </sidebar-category>
+        </resume-column>
+        <resume-column flex="75">
+            <category name="Professional Experience">
+                <category-item title="Technical Lead" subtitle="Fanspole Online Solutions Pvt. Ltd.">
+                    <li>Designed, developed & maintained MVVM based & Kotlin written android app from scratch for
+                        Fanspole.
+                    </li>
+                    <li>Simultaneously developed & released Fanspole-iOS app in Flutter</li>
+                    <li>Worked on real-time chat application in flutter - Dodaa, currently in beta.</li>
+                </category-item>
+                <category-item title="Android Developer II" subtitle="Parity Cube Pvt. Ltd.">
+                    <li>Worked on 3 successfully delivered apps - DesiDime Deals &amp; Coupons, Zingoy, Deal Alarm.</li>
+                    <li>Integrated Google Play Services, Realm, PayUmoney, Firebase, Retrofit, Volley, Crashlytics &amp;
+                        other APIs within applications.
+                    </li>
+                    <li>Full-stack developer - Wrote &amp; reviewed code for Android using Java &amp; Kotlin</li>
+                </category-item>
+                <category-item title="Android Developer" subtitle="QICE Technologies Pvt. Ltd.">
+                    <li>Responsible for the design, build, deployment, debug &amp; maintenance of multiple Android
+                        applications.
+                    </li>
+                    <li>Handled direct client interactions.</li>
+                </category-item>
+            </category>
+
+            <br>
+
+            <category name="Project Management Skills">
+                <sidebar-category>
+                    <li>Develop client relationships &amp; coordination with the onshore team.</li>
+                    <li>Monitoring development activities &amp; reporting project progress.</li>
+                    <li>Worked as an effective coordinator between Development &amp; QA team.</li>
+                    <br>
                 </sidebar-category>
+                <sidebar-category></sidebar-category>
+            </category>
 
 
-                <category name="Technology"></category>
-                    <sidebar-category name="Implementation">
-                        <p>Architecture (MVP/MVVM)</p>
-                        <p>Android Architecture Components</p>
-                        <p>Authentication (Facebook, Google, Instagram, Twitter)</p>
-                        <p>Material Designs</p>
-                        <p>Crashlytics</p>
-                        <p>Git</p>
-                    </sidebar-category>
-                <!-- <category name=""> -->
-                    <sidebar-category name="Payment Gateways">
-                        <p>Paypal (BrainTree Payments), PayU</p>
-                    </sidebar-category>  
-                <!-- </category> -->
-                <!-- <category name=""> -->
-                    <sidebar-category name="Database">
-                        <p>Local - SQLite, Room , Realm</p>
-                        <p>BaaS - Firebase, Parse, Shephertz</p>
-                    </sidebar-category>
-                <!-- </category> -->
-                <!-- <category name=""> -->
-                    <sidebar-category name="Google SDKs">
-                        <p>Messaging • Analytics Ads • App-Indexing    Geofence •   AppLinking &amp; DeepLinking</p>
-                    </sidebar-category>
-                <!-- </category> -->
-
-                <category name "Skills"></category>
-                    <sidebar-category name="Programming">
-                        <p>Java • Android • Kotlin   RxJava • HTML • Latex   C • C++ • PHP Basics</p>
-                    </sidebar-category>
-            </resume-column>
-            <resume-column flex="75">
-                <category name="Professional Experience">
-                    <category-item title="Android Developer II" subtitle="Parity Cube Pvt. Ltd.">
-                        <li>Worked on 3 successfully delivered apps - DesiDime Deals &amp; Coupons, Zingoy, Deal Alarm.</li>
-                        <li>Integrated Google Play Services, Realm, PayUmoney, Firebase, Retrofit, Volley, Crashlytics &amp; other APIs within applications.</li>
-                        <li>Full-stack developer - Wrote &amp; reviewed code for Android using Java &amp; Kotlin</li>
-                    </category-item>
-                    <category-item title="Android Developer" subtitle="QICE Technologies Pvt. Ltd.">
-                        <li>Responsible for the design, build, deployment, debug &amp; maintenance of multiple Android applications.</li>
-                        <li>Handled direct client interactions.</li>
-                    </category-item>
-                </category>
-
-                        <br>
-
-                <category name="Project Management Skills">
-                     <sidebar-category  >
-                        <li>Develop client relationships &amp; coordination with the onshore team.</li>
-                        <li>Monitoring development activities &amp; reporting project progress.</li>
-                        <li>Worked as an effective coordinator between Development &amp; QA team.</li>
-                        <br>
-                    </sidebar-category>
-                    <sidebar-category></sidebar-category>        
-                </category>
-
-
-                 <category name="Projects">
-                    <category-item title="DesiDime Deals &amp; Coupons" subtitle="">
-                        <p>DesiDime Deals &amp; Coupons App is an app to get latest coupons, discounts, deals &amp; offers from over 1000+ Online Shopping Stores with a powerful online community of over 12 lakh shoppers posting, reviewing &amp; rating the offers from various e-commerce stores &amp; shows the latest, active &amp; often hidden deals and coupons.</p>
-                    </category-item>
-                    <category-item title="Zingoy - Cashback &amp; Gift Cards" subtitle="">
-                        <p>App that pays you cashback every time you shop with it. It lets you Earn real Cash over &amp; above the amazing deals, offers &amp; discount coupons you seldom shop without.
-                        The app also have feature to buy exciting shopping Gift Cards &amp; can also Sell your unused vouchers &amp; gift cards on the Marketplace &amp; earn real cash.</p>
-                    </category-item>
-                    <category-item title="Shemozzle" subtitle="">
-                        <p>This app is to give the enthusiastic match reporters an easier &amp; more user friendly way of getting live match scores &amp; events to the GAA world. People at a match can use Shemozzle to input a team lineup of both teams, update live events such as scores, yellow cards, red cards, black cards &amp; substitutions all with the click of a few buttons.</p>
-                    </category-item>
-                    <category-item title="Wanna-Eat" subtitle="">
-                        <p>Online food ordering application developed for Arizona State University students to order food within their campus. Brilliantly designed &amp; secured integration of online payment mode to pay money using Braintree Payments, Paypal.</p>
-                    </category-item>
-                    <category-item title="Books By Babasaheb" subtitle="">
-                        <p>eBook reader to read &amp; explore books written by and on Dr. Babasaheb Ambedkar.
-                        This app was released on 14th April &amp; gained positive response from users. eBooks are provided from server.</p>
-                    </category-item>
-                    <category-item title="Coupons Shopping by DesiDime" subtitle="">
-                        <p>Coupon Shopping is India’s most comprehensive app to find Coupons for Online Shopping It currently showcases discount codes and vouchers from over 500 Indian ecommerce stores.</p>
-                    </category-item>
-                    <category-item title="Cuelinks - SDK" subtitle="">
-                        <p>Cuelinks is a 2-minute content monetization tool for bloggers, deal site owners, coupon sites, forum owners or any publishers or in fact, any websites which send outbound traffic to online shopping, travel, finance or matrimony websites. This helps publishers monetize their content in an effective manner &amp; with minimal efforts from their end. </p>
-                    </category-item>
-                    <category-item title="Atomz - SDK" subtitle="">
-                        <p>Online recharge application by Atom Technologies Inc. Mumbai. This is a simple application developed with high security to perform online transaction easily. </p>
-                    </category-item>
-                    <category-item title="PubApp" subtitle="">
-                        <p>The client wanted this project as a slideshow display for the photos people take in their pubs. Users take pics &amp; upload on mobile application, this will then be displayed on TV as a slideshow. </p>
-                    </category-item>
-                    <category-item title="Vivid Vidarbha" subtitle="">
-                        <p>An Android app made for people who wants to know about Vidarbha region. This was under Maharashtra tourism projects. </p>
-                    </category-item>
-                    <category-item title="Instaquote" subtitle="">
-                        <p>An android application for users &amp; car vendors to quote about the cars &amp; their servicing. The vendors could make the quote &amp; forward to the users. Also users could search for nearby vendors or better quotes for their car. </p>
-                    </category-item>
-                    <category-item title="SpyApp" subtitle="">
-                        <p>The client wanted to keep parental control active in his child’s phone. So the parent (client) asked for the application that could </p>
-                    </category-item>
-                    <category-item title="SeeMeeFly" subtitle="">
-                        <p>Worked on this as a last project in Qice Solutions &amp; released v1.0. This is a social networking app for children. </p>
-                    </category-item>
-                    <category-item title="Tutorjini" subtitle="">
-                        <p>This project is a search engine for tuitions &amp; has more functionalities for users to get better results for any sort of classes within the area. </p>
-                    </category-item>
-                </category>
-            </resume-column>
-        </resume-body>
-    </resume>
+            <category name="Projects">
+                <category-item title="Fanspole" subtitle="">
+                    <p>Fanspole is an Online Fantay Games Platform where users can come and play various Fantasy Games
+                        for ongoing Series/Tournament matches. You can play Free and Paid Fantasy Games in easy, secure
+                        and legal way.</p>
+                </category-item>
+                <category-item title="DesiDime Deals &amp; Coupons" subtitle="">
+                    <p>DesiDime Deals &amp; Coupons App is an app to get latest coupons, discounts, deals &amp; offers
+                        from over 1000+ Online Shopping Stores with a powerful online community of over 12 lakh shoppers
+                        posting, reviewing &amp; rating the offers from various e-commerce stores &amp; shows the
+                        latest, active &amp; often hidden deals and coupons.</p>
+                </category-item>
+                <category-item title="Zingoy - Cashback &amp; Gift Cards" subtitle="">
+                    <p>App that pays you cashback every time you shop with it. It lets you Earn real Cash over &amp;
+                        above the amazing deals, offers &amp; discount coupons you seldom shop without.
+                        The app also have feature to buy exciting shopping Gift Cards &amp; can also Sell your unused
+                        vouchers &amp; gift cards on the Marketplace &amp; earn real cash.</p>
+                </category-item>
+                <category-item title="Cuelinks - SDK" subtitle="">
+                    <p>Cuelinks is a 2-minute content monetization tool for bloggers, deal site owners, coupon sites,
+                        forum owners or any publishers or in fact, any websites which send outbound traffic to online
+                        shopping, travel, finance or matrimony websites. This helps publishers monetize their content in
+                        an effective manner &amp; with minimal efforts from their end. </p>
+                </category-item>
+                <category-item title="Shemozzle" subtitle="">
+                    <p>This app is to give the enthusiastic match reporters an easier &amp; more user friendly way of
+                        getting live match scores &amp; events to the GAA world. People at a match can use Shemozzle to
+                        input a team lineup of both teams, update live events such as scores, yellow cards, red cards,
+                        black cards &amp; substitutions all with the click of a few buttons.</p>
+                </category-item>
+                <category-item title="Wanna-Eat" subtitle="">
+                    <p>Online food ordering application developed for Arizona State University students to order food
+                        within their campus. Brilliantly designed &amp; secured integration of online payment mode to
+                        pay money using Braintree Payments, Paypal.</p>
+                </category-item>
+                <category-item title="Books By Babasaheb" subtitle="">
+                    <p>eBook reader to read &amp; explore books written by and on Dr. Babasaheb Ambedkar.
+                        This app was released on 14th April &amp; gained positive response from users. eBooks are
+                        provided from server.</p>
+                </category-item>
+                <category-item title="Dodaa" subtitle="">
+                    <p>Currently in beta (dodaa.app), Dodaa is realtime chat application developed in flutter for sports
+                        enthusiastic folks. It is super community for Fans interested to pour out their emotions about
+                        Sports & Esports matches. One can send texts, bets, and more with a modern chat in their fan
+                        room & to complete with the ability to react to various match moments and betting history.</p>
+                </category-item>
+                <category-item title="Coupons Shopping by DesiDime" subtitle="">
+                    <p>Coupon Shopping is India’s most comprehensive app to find Coupons for Online Shopping It
+                        currently showcases discount codes and vouchers from over 500 Indian ecommerce stores.</p>
+                </category-item>
+                <category-item title="Atomz - SDK" subtitle="">
+                    <p>Online recharge application by Atom Technologies Inc. Mumbai. This is a simple application
+                        developed with high security to perform online transaction easily. </p>
+                </category-item>
+                <category-item title="PubApp" subtitle="">
+                    <p>The client wanted this project as a slideshow display for the photos people take in their pubs.
+                        Users take pics &amp; upload on mobile application, this will then be displayed on TV as a
+                        slideshow. </p>
+                </category-item>
+                <category-item title="Vivid Vidarbha" subtitle="">
+                    <p>An Android app made for people who wants to know about Vidarbha region. This was under
+                        Maharashtra tourism projects. </p>
+                </category-item>
+                <category-item title="Instaquote" subtitle="">
+                    <p>An android application for users &amp; car vendors to quote about the cars &amp; their servicing.
+                        The vendors could make the quote &amp; forward to the users. Also users could search for nearby
+                        vendors or better quotes for their car. </p>
+                </category-item>
+                <category-item title="SpyApp" subtitle="">
+                    <p>The client wanted to keep parental control active in his child’s phone. So the parent (client)
+                        asked for the application that could </p>
+                </category-item>
+                <category-item title="SeeMeeFly" subtitle="">
+                    <p>Worked on this as a last project in Qice Solutions &amp; released v1.0. This is a social
+                        networking app for children. </p>
+                </category-item>
+                <category-item title="Tutorjini" subtitle="">
+                    <p>This project is a search engine for tuitions &amp; has more functionalities for users to get
+                        better results for any sort of classes within the area. </p>
+                </category-item>
+            </category>
+        </resume-column>
+    </resume-body>
+</resume>
 
 
-</body></html>
+</body>
+</html>
